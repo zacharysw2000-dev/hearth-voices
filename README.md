@@ -29,3 +29,7 @@ Standard Ebooks editions, released by [Standard Ebooks](https://standardebooks.o
 ## How the app fetches them
 
 Hearth downloads from this repository's files on the `main` branch, by folder, and falls back to Hugging Face (voice table and token list) or standardebooks.org (books) when this host is unreachable. A download that fails its checksum is deleted and retried.
+
+## Website
+
+The `docs/` folder is the site at https://hearthreader.com (GitHub Pages): a short landing page and the privacy policy at `/privacy`. The policy is generated from `PRIVACY_POLICY.md` in the app's repository.
